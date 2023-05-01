@@ -12,7 +12,7 @@ class TestCases:
 
     def setup_method(self):
         """
-        Headless browser is just like a real browser with no User Interface(GUI).
+        Headless browser is just like a real browser with no User Interface(GUI) testing git.
         """
 
         self.driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
