@@ -43,6 +43,7 @@ class TestCases:
 
         """ The system should display only integers numbers when click on 'integers only test' """
 
+
         drop_down_name = Select(self.driver.find_element(by=By.ID, value="selectBuild"))
         time.sleep(2)
         drop_down_name.select_by_value("1")  # select item by id - Bild 1
