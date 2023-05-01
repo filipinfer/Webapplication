@@ -41,7 +41,7 @@ class TestCases:
 
     def test_bild1_option_integers_only(self):
 
-        """ The system should display only integers numbers when click on 'integers only' """
+        """ The system should display only integers numbers when click on 'integers only test' """
 
         drop_down_name = Select(self.driver.find_element(by=By.ID, value="selectBuild"))
         time.sleep(2)
